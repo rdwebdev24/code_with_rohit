@@ -1,0 +1,507 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing:border-box ;
+}
+
+
+.container{
+     font-family: 'Montserrat', sans-serif;
+     color: white;
+     background-color: #391f14;
+     width: 100%;
+}
+
+/************ NAVBAR STYLING ***********/
+
+.navbar{
+     position: fixed;
+     width: 100%;
+     background-color: #391f14;
+     height: 14vh;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+
+
+.navbar_items{
+     font-size: 0.9rem;
+     margin-top: 2rem;
+}
+
+
+
+/*************** LIST STYLING ****************/
+
+#list_items{
+     cursor: pointer;
+     margin-top: 2rem;
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+     width: 30%;
+     justify-content: space-between;     
+}
+
+.list_element::before{
+     content: "";
+background-color: white;    
+ position: absolute;
+     width: 0px;
+     height: 3px;
+     border-radius: 33px;
+     top: 52px;
+     transition: all 0.3s ease-in-out;
+}
+
+.list_element:hover.list_element::before{
+     width:50px;
+}
+
+.list_element:hover{
+     color: #f5916a;
+     
+}
+
+/************* LIST STYLING ENDS ***************/
+
+
+#book_now{
+     text-transform: capitalize;
+     color: white;
+     border-style: none;
+     font-size: 1rem;
+     margin-top: 0.9rem;
+     height: 8vh;
+     width: 9%;
+     background-color: #a85432;
+}
+
+#book_now:hover{
+     background-color: #d06338;
+}
+
+/****************** NAV BAR STYLING ENDS ********************/
+
+
+/***************** LANDING PAGE STYLING *************/
+
+.landing_page{
+     background-image: url('./images/image1.webp');
+     background-repeat: no-repeat;
+     background-color: #391f14;
+     background-position-x:right;
+     background-size: contain;
+     height: 100vh;
+     display: flex;
+     flex-direction: row;
+}
+
+
+#landing_page_info{
+     margin: 75px 0px auto 100px;
+     width: 70%;
+     height: 60vh;
+}
+
+#landing_page_info h2{
+     margin:30px 0px ;
+     font-family: "Cormorant",serif;
+     text-transform: capitalize;
+    font-size: 6rem;
+}
+
+
+#landing_page_info p{
+     font-family: "Josefin Sans",sans-serif;
+     line-height: 2rem;
+     margin:30px 0px ;
+    font-size: 1.1rem;
+    width: 24%;
+    /* font-weight: bold; */
+}
+
+
+.btn{
+font-family: 'Montserrat', sans-serif;
+     cursor: pointer;
+     text-transform: capitalize;
+     color: white;
+     border-style: none;
+     font-size: 1.2rem;
+     margin-top: 0.9rem;
+     height: 10vh;
+     width: 18%;
+     background-color: #a85432;
+}
+
+/***************** LANDING PAGE STYLING *************/
+
+/************** PAGE-2 STYLING START *******************/
+
+.page2{
+     background-color: #f5f5f5;
+     color: black;
+     /* border: 2px solid red; */
+     height: 130vh;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+}
+.page2 h1{
+     font-weight: 100;
+     font-size: 1.8rem;
+     padding: 80px 180px;
+     font-family: none;
+}
+
+.page2box{
+     display: flex;
+     flex-direction: row;
+}
+
+.page2_leftbox{
+     display: flex;
+     flex-direction: column;
+}
+
+
+.page2_leftbox p{
+     padding: 0px 100px;
+     margin-bottom: 50px;
+}
+
+.page2_leftbox h2{
+     font-weight: 100;
+     font-size: 2rem;
+     font-family: 'Times New Roman', Times, serif;
+     text-transform: capitalize;
+     padding: 114px 114px 50px 114px;   
+       color: #a85432;
+}
+
+
+#learn_more{
+     margin:0px auto;
+     height: 8vh;
+     width: 28%;
+}
+
+
+.page2_rightbox{
+     margin-right: 90px;
+}
+
+#image2{
+     margin-top: -290px;
+     margin-left: 224px;
+}
+
+
+/*************** PAGE-3 STYLING START HERE *******************/
+
+
+.page3{
+     background-color: white;
+     height: 140vh;
+     /* border: 2px solid blue; */
+}
+
+.heading{
+     height: 80vh;
+     background-color: #fff7f3;
+     color: black;
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+     
+     padding-top: 230px ; 
+     padding-bottom: 70px ; 
+}
+
+.heading h1{
+     font-weight: 100;
+     width: 30%;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+
+
+
+
+.room_slider{
+     display: flex;
+     flex-direction: row;
+     color: black;
+     /* border: 2px solid green; */
+     margin-top: -120px;
+     overflow-x: scroll;
+     
+}
+
+.slider{
+     margin: 15px;
+     /* border: 2px solid yellow; */
+     width:314px;
+
+}
+.slider p{
+     width: 95%;
+     font-size: 0.8rem;
+     line-height: 1.5rem;
+     padding: 20px 0px;
+
+}
+.slider h3{
+     padding: 20px 0px 10px 0px ;
+     width: 52%;
+     font-size: 1rem;
+
+}
+.rate{
+     padding: 20px 10px 0px 0px ;
+     margin-left: 50px;
+     font-weight: bold;
+     color:#db1237;
+}
+
+
+.room_image{
+     width:310px;
+
+}
+
+
+/*****************  PAGE - 4 START HERE *******************/
+
+
+.page4{
+     height: 100vh;
+     /* border: 2px solid red ; */
+     background-color: white;
+     color: black;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+}
+
+.page4 .left{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     /* border: 2px solid yellow; */
+}
+
+.page4 .left h1{
+     width: 60%;
+     font-weight: 100;
+     font-size: 2rem;
+     font-family: 'Times New Roman', Times, serif;
+     text-transform: capitalize;
+     padding: 114px 114px 50px 114px;   
+       color: #a85432;
+}
+.page4 .left p{
+     line-height: 1.8rem;
+     width: 70%;
+     padding: 0px 100px;
+     margin-bottom: 50px;
+
+}
+
+
+
+.page4 .right{
+     margin-right: 100px;
+     width: 45%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     /* border: 2px solid green; */
+}
+.page4 .right h1{
+     padding: 30px 0px;
+     font-weight: 600;
+     font-size: 2rem;
+     font-family: 'Times New Roman', Times, serif;
+     text-transform: capitalize;
+       color: #a85432;
+}
+
+.page4 .right form{
+     display: flex;
+     flex-direction: column;
+}
+.page4 .right form input{
+    padding: 10px;
+    margin: 10px 0px;
+
+}
+.page4 .right form select{
+     color: grey;
+     font-size: 0.8rem;
+    padding: 14px;
+    margin: 10px 0px;
+}
+
+#book_btn{
+     width: 100%;
+     height: 8vh;
+     border-radius: 4px;
+}
+
+
+/********** PAGE - 5 STYLING START HERE ********************/
+
+.page5{
+     justify-content: center;
+     display: flex;
+     flex-direction: row;
+     background-color: white;
+     height: 90vh;
+     /* border: 2px solid red; */
+     width: 100%;
+     color: black;
+}
+
+.box1{
+     margin: 10px;
+     width: 28%;
+     /* border: 2px solid yellow; */
+}
+.box1 img{
+    width: 374px;
+}
+.box1 h1{
+     text-transform: capitalize;
+    font-weight: 100;
+    font-family: none;
+    font-size: 2rem;
+    padding: 10px 0px;
+}
+     
+.box1 p{
+     font-size: 0.85rem;
+     line-height: 1.5rem;
+     font-family: 'Montserrat';
+     color: grey;
+}
+
+
+/************** PAGE - 8 STYLING START HERE ******************/
+
+.page8{
+     /* border: 2px solid red; */
+     height: 100vh;
+     width: 100%;
+     background-color: #fff7f3;
+     color: grey;
+}
+
+.contactinfo{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     /* border: 2px solid green; */
+     width: 100%;
+     height: 90vh;
+    
+}
+
+.echo{
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+     width: 35%;
+     /* border: 2px solid green; */
+     height: inherit;
+}
+
+.echo p{
+     padding-bottom: 30px;
+         width: 70%;
+         line-height: 1.5rem;
+         font-size: 1rem;
+         font-family: none;
+}
+.echo .social_media i{
+     height: 4vh;
+         border-radius: 5px;
+         width: 5%;
+         color: white;
+         background-color: brown;
+         margin: 8px;
+         text-align: center;
+         padding: 4px;
+}
+
+
+.echo img{
+     margin-top: 100px;
+     padding: 30px 0px;
+    width: 30%;
+}
+
+
+.navigation{
+     margin-right: 190px;
+     display: flex;
+     flex-direction: column;
+   /* border: 2px solid blue; */
+   justify-content: center;
+}
+.navigation a{
+     display: flex;
+     flex-direction: column;
+     margin: 15px 0px;
+     text-decoration: none;
+     color: grey;
+     font-size: 0.88rem;
+     font-weight: bold;
+}
+a:hover{
+ color: rgb(216, 144, 11);
+ text-decoration: underline;
+ 
+}
+
+.navigation h1{
+     font-family: 'Times New Roman', Times, serif;
+     color: black;
+     font-weight: 100;
+     font-size: 1.5rem;
+     padding-top: 50px;
+     padding-bottom: 20px;
+     /* text-decoration: none; */
+ 
+}
+
+
+
+.address{
+     display: flex;
+     flex-direction: column;
+ /* border: 2px solid black; */
+ justify-content: center;
+ margin-bottom: 100px;
+
+}
+
+
+.address h1{
+     font-family: 'Times New Roman', Times, serif;
+     color: black;
+     font-weight: 100;
+     font-size: 1.5rem;
+     padding-bottom: 50px;
+}
+.address p{
+     padding-bottom: 20px;
+}
+
+
+
+.footer{
+     text-align: center;
+}

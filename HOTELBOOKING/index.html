@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="./stylesheet.css">
+     <link rel="stylesheet" href="./responsivce.css">
+
+<!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <div class="container">
+          <!--  NAVBAR START  -->
+          <div class="navbar">
+               <div id="logo" class="navbar_items"><img src="./images/logo.webp" alt=""></div>
+               <div id="phone_no" class="navbar_items">Phone: 8456327596</div>
+               <div id="address" class="navbar_items">11/102 new colony , mumbai NH-10</div>
+               <ul id="list_items" class="navbar_items">
+                    <li class="list_element">Home</li>
+                    <li class="list_element">Rooms</li>
+                    <li class="list_element">About</li>
+                    <li class="list_element">Contact us</li>
+                    <li class="list_element">Blog</li>
+               </ul>
+               <button id="book_now">book now</button>
+          </div>
+
+<!-- LANDING PAGE START  -->
+ <div class="landing_page">
+      <div id="landing_page_info">
+           <h2>worlds class Accommodation</h2>
+           <p>Discover a hotel that define a new dimension of Luxury</p>
+           <button class="btn">view more</button>
+      </div>
+ </div>
+
+<!-- PAGE-2 START HERE  -->
+
+ <div class="page2">
+      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quos amet temporibus accusamus! Quas vero quae deleniti nostrum</h1>
+      <div class="page2box">
+           <div class="page2_leftbox">
+                <h2> consectetur adipisicing elit dolor</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur magni voluptatibus eaque. Itaque.</p>
+                <button id="learn_more" class="btn">learn more</button>
+           </div>
+           <div class="page2_rightbox">
+                <div id="image1"><img src="./images/image2.webp" alt="error"></div>
+                <div id="image2"><img src="./images/image3.webp" alt="error"></div>
+           </div>
+      </div>
+ </div>
+          
+<!-- PAGE - 3 START HERE -->
+
+<div class="page3">
+     <div class="heading">
+      <h1>Luctus ullamcorper mattis, pulvinar dapibus.</h1>
+     </div>
+     <div class="room_slider">
+          <div class="slider">
+               <img src="./images/image4.webp" alt="error" class="room_image">
+               <div style="display: flex; flex-direction: row;">
+                    <h3>Ullamcorper mattis, pulvinar dapibus.</h3>
+                    <div class="rate">$450/Night</div>
+               </div>
+               <p>Leather detail shoulder contrastic colour contour stunning silhouette working peplum.
+               </p>
+          </div>
+          <div class="slider">
+               <img src="./images/image5.webp" alt="error" class="room_image">
+               <div style="display: flex; flex-direction: row;">
+                    <h3>Ullamcorper mattis, pulvinar dapibus.</h3>
+                    <div class="rate">$450/Night</div>
+               </div>
+               <p>Leather detail shoulder contrastic colour contour stunning silhouette working peplum.
+               </p>
+          </div>
+          <div class="slider">
+               <img src="./images/image6.webp" alt="error" class="room_image">
+               <div style="display: flex; flex-direction: row;">
+                    <h3>Ullamcorper mattis, pulvinar dapibus.</h3>
+                    <div class="rate">$450/Night</div>
+               </div>
+               <p>Leather detail shoulder contrastic colour contour stunning silhouette working peplum.
+               </p>
+          </div>
+          <div class="slider">
+               <img src="./images/image7.webp" alt="error" class="room_image">
+               <div style="display: flex; flex-direction: row;">
+                    <h3>Ullamcorper mattis, pulvinar dapibus.</h3>
+                    <div class="rate">$450/Night</div>
+               </div>
+               <p>Leather detail shoulder contrastic colour contour stunning silhouette working peplum.
+               </p>
+          </div>
+          <div class="slider">
+               <img src="./images/image8.webp" alt="error" class="room_image">
+               <div style="display: flex; flex-direction: row;">
+                    <h3>Ullamcorper mattis, pulvinar dapibus.</h3>
+                    <div class="rate">$450/Night</div>
+               </div>
+               <p>Leather detail shoulder contrastic colour contour stunning silhouette working peplum.
+               </p>
+          </div>
+          
+     </div>
+</div>
+
+<!-- PAGE-4 START HERE  -->
+
+<div class="page4">
+     <div class="left">
+          <h1>Ullamcorper mattis, pulvinar dapibus.</h1>
+          <p>Leather detail shoulder contrastic colour contour stunning silhouette working peplum. Statement buttons cover-up tweaks patch.</p>
+     </div>
+     <div class="right">
+          <h1>Book a room</h1>
+          <form action="./backend.php">
+
+               <label for="checkin">check in </label>
+          <input type="date" name="" id="checkin" placeholder="check in">
+          <label for="checkout">check out </label>
+          <input type="date" name="" id="checkin" placeholder="check out">
+          
+               <select id="rooms">
+                    <option selected hidden>Room</option>
+                    <option value="">Room one</option>
+                    <option value="">Room two</option>
+                    <option value="">Room three</option>
+               </select>
+               <select id="guest">
+                    <option selected hidden>Guest</option>
+                    <option value="">guest one</option>
+                    <option value="">guest two</option>
+                    <option value="">guest three</option>
+               </select>
+
+               <button class="btn" id="book_btn">check availability</button>
+     </form>
+     </div>
+</div>
+ <!--  PAGE - 5 START HERE  -->
+
+ <div class="page5">
+      <div class="box1">
+           <img src="./images/image9.png" alt="error">
+           <h1>beautiful Accommodation</h1>
+           <p>Leather detail shoulder contrastic colour contour stunning silhouette working peplum. Statement buttons cover-up tweaks patch.</p>
+      </div>
+      <div class="box1">
+           <img src="./images/image10.png" alt="error">
+           <h1>beautiful Accommodation</h1>
+           <p>Leather detail shoulder contrastic colour contour stunning silhouette working peplum. Statement buttons cover-up tweaks patch.</p>
+      </div>
+      <div class="box1">
+           <img src="./images/image11.png" alt="error">
+           <h1>beautiful Accommodation</h1>
+           <p>Leather detail shoulder contrastic colour contour stunning silhouette working peplum. Statement buttons cover-up tweaks patch.</p>
+      </div>
+ </div>
+
+<!-- PAGE - 8 START HERE  -->
+
+ <div class="page8">
+      <div class="contactinfo">
+           <div class="echo">
+                <img src="./images/logo2.webp" alt="error">
+                <p>Leather detail shoulder contrastic colour contour stunning silhouette working peplum. Statement buttons cover-up tweaks patch.</p>
+               <div class="social_media">
+                    <i class=" fa fa-instagram"></i>
+                    <i class=" fa fa-facebook"></i>
+                    <i class=" fa fa-linkedin"></i>
+                    <i class=" fa fa-pinterest"></i>
+               </div>
+           </div>
+           <div class="navigation">
+                <h1>Navigation</h1>
+                <a href="#">About</a>
+                <a href="#">our rooms</a>
+                <a href="#">Book a room</a>
+               <a href="#">Blog</a>
+               <a href="#">Privacy and policy</a>
+               <a href="#">Contact</a>
+           </div>
+           <div class="address">
+                <h1>Address</h1>
+                <p>76/A, Green Lane, Dhanmondi, NYC</p>
+                <p style="color:orange; font-weight: bold; font-size: 1.5rem; padding: 0px;">10 (87) 738-3940</p>
+                    <p style="font-size: 0.8rem; padding-top: 5px;">contact@carwash.com</p>
+           </div>
+      </div>
+      <div class="footer">
+          <span> Copyright ©2021 All rights reserved | This template is made with  by</span><span style="color: orange; font-weight: bold;"> Colorlib</span>
+      </div>
+ </div>
+
+
+     </div>
+</body>
+</html>
+

@@ -1,0 +1,352 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: 'Baloo 2', cursive;
+     scroll-behavior: smooth;
+
+}
+
+.header{
+     position: fixed;
+ }
+.header p{
+     border: 1px solid #fff;
+     border-radius: 30px;
+     margin: 11px;
+     padding:5px 10px;
+     text-align: center;
+
+ }
+.header p:hover{
+    background-color:#333;
+
+ }
+
+.header a{
+     font-size: 1rem;
+     color: white;
+    text-decoration: none;
+ }
+.header p a:hover{
+    background-color: #333;
+ }
+
+
+
+
+#mytunes{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     /* background-image: url('./showcase.jpeg'); */
+     background-image: radial-gradient( red, black);
+     background-size: cover;
+     background-repeat: no-repeat;
+     text-align: center;
+     height: 110vh;
+     /* border: 2px solid yellow; */
+     /* position: relative; */
+     color: white; 
+     width: 100%;
+     bottom: 170px;
+     padding-top: 126px;
+     padding-bottom: 70px; 
+     padding-left: 150px; 
+     padding-right: 150px; 
+}
+
+#mytunes h2 {
+     font-family: 'Baloo 2', cursive;
+font-family: 'Montserrat', sans-serif;
+     font-weight: bold;
+     font-size: 3.2rem;
+     padding-bottom: 20px;
+}
+#mytunes h2::before{
+     content: "";
+     position: absolute;
+     border: 2px solid black;
+     width: 110px;
+     margin-top: 72px;
+     margin-left: -4px;
+}
+
+#mytunes h2::after{
+     content: "";
+     position: absolute;
+     border: 2px solid black;
+     width: 110px;
+     margin-top: 72px;
+     margin-left: -105px;
+
+    
+}
+
+
+#mytunes h3 {
+     font-weight: bold;
+     font-size: 2rem;
+     padding-bottom: 20px;
+     text-transform: capitalize;
+}
+
+
+ 
+
+#mytunes p{
+     font-size: 1.6rem;
+}
+
+/* **************** ******************* */
+
+
+#signup{
+     /* border:2px solid green; */
+     background-color: #333;
+     color: white;
+     text-align: center;
+     width: 100%;
+  height: 111vh;
+  bottom: 170px;
+  display: flex;
+  flex-direction: column;
+     padding: 135px 150px;
+}
+
+#signup i,h2{
+     font-size: 3.2rem;
+     font-weight: bold;
+}
+#signup h2{
+     padding-bottom: 20px;
+}
+#signup h3{
+     font-size: 2rem;
+     font-weight: bold;
+     padding-bottom: 20px;
+}
+
+#signup p{
+     font-size: 1.5rem;
+     padding-bottom: 50px;
+    
+}
+
+#sign_up_button{
+     margin: 0px auto;
+     width: 16%;
+     padding:12px;
+     font-size: 26px;
+     text-transform: capitalize;
+     background-color: red;
+     color: white;
+     border-style: none;
+     border-radius: 5px;
+}
+#sign_up_button a {
+     text-decoration: none;
+     color: white;
+}
+#sign_up_button:hover{
+     background-color: rgb(255, 71, 71);
+}
+#sign_up_button a:hover{
+     font-size: 27px;
+
+}
+
+/* ************** SONG LIST ******************** */
+
+#song_list{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-image: url('./new9.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 120vh;
+     padding-bottom: 150px;
+}
+#song_list h3 {
+     font-family: 'Koh Santepheap', cursive;
+     font-size: 3.2rem;
+     font-weight: bold;
+     text-shadow: 2px 2px red;
+     text-decoration: tomato;
+     text-transform: capitalize;
+     color: white;
+     padding-bottom:34px
+
+}
+
+#song_list button{
+     font-weight: bold;
+   font-size: 1.5rem;
+   padding:10px;
+   background-color: #dcb1dc;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 2px 2px 2px #4cffae;
+
+}
+
+#song_list button a{
+     text-decoration: none;
+
+
+}
+#song_list button:hover{
+   font-size: 1.6rem;
+}
+
+/* *****************     ABOUT  *********************** */
+
+#register{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     justify-content: center;
+     height: 120vh;
+     background-image: url('./music7.jpeg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: white;
+
+}
+
+.registerhere{
+     /* border: 2px solid red; */
+     /* margin-bottom: 325px; */
+     /* padding-left: 535px; */
+     text-transform: capitalize;
+}
+.registerhere h2{
+  color: red;
+  text-shadow: 2px 2px 2px yellow;
+  font-size: 4.5rem;
+  font-weight: bold;  
+}
+.registerhere h4{
+   font-size: 2rem;
+   color: yellow;
+   text-shadow: 2px 2px red;
+}
+
+.registerhere p{
+     color: yellow;
+   font-size: 2.3rem;
+  font-weight: bold;  
+  text-shadow: 2px 2px red;
+   
+}
+
+#registerbtn{
+     padding: 7px;
+     margin: 10px;
+     border-radius: 10px;
+     border-right-color: #0098ff;
+     border-bottom-color: #0098ff;
+}
+#registerbtn a{
+     text-decoration: none;
+     color: red;
+     font-size: 20px;
+     /* text-transform: capitalize; */
+     font-weight: bold;
+     text-shadow: 2px 2px #00ffd4;
+}
+#registerbtn a:hover{
+     font-size: 20.5px;
+}
+#registerbtn:hover{
+     border-style:dotted;
+}
+
+
+
+/* *************** CONTACT US ************************ */
+
+#contact {
+     width: 100%;
+     height: 85vh;
+     background-color: #333;
+     padding-top:100px;
+}
+
+#contact .new .userinput{
+     width: 25%;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     justify-content: center;
+     height: 50vh;
+     background-color: #333;
+     margin: 0px auto;
+}
+
+#contact .new .userinput input{
+   padding: 5px;
+   margin: 10px;
+   border: 2px solid rgb(116, 116, 116);
+   border-style: none;
+   text-transform: capitalize;
+   
+
+}
+
+#contact .new .userinput h2{
+
+     color: white;
+     text-transform: capitalize;
+     /* padding-top: 175px; */
+     padding-bottom: 33px;
+     padding-top: 30px;
+     font-size: 2.2rem;
+
+}
+#contact .new .userinput img{
+   border-radius: 50px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+    width: 25%;
+
+}
+#contact .new .userinput h2::before{
+     content: "";
+     border: 2px solid red;
+     margin: 10px;
+
+}
+#contact .new .userinput h2::after{
+     content: "";
+     border: 2px solid red;
+     margin: 10px;
+
+}
+  
+#contactbtn{
+     margin: 10px;
+}
+#contactbtn:hover{
+     background-color: rgb(167, 164, 164);
+} 
+#contactbtn a{
+     font-family: 'Koh Santepheap', cursive;
+     text-decoration: none;
+     color: black;
+     font-size: 1.2rem;
+     text-transform: capitalize;
+     
+}
+#contactbtn a:hover{
+     color: black;
+    
+}
+
+
+
+

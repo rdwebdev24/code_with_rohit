@@ -1,0 +1,596 @@
+
+
+/* ***************** RESPONSIVENESS ********************* */
+
+  
+@media (min-width:1024px) and (max-width:1440px){
+
+     .registerhere h4{
+          font-size: 1.8rem;
+         
+       }
+
+       .registerhere p{
+          font-size: 2.3rem;
+         padding: 0px 0px ;
+       }
+
+       #registerbtn a{
+         
+          font-size: 21px;
+          
+     }
+    
+
+     /* #mytunes h3::before{
+          content: "";
+          position: absolute;
+          border: 7px solid red;
+          top: 290px;
+          transform: translateX(142px) rotate(45deg);
+      } */
+
+      #mytunes p{
+          width: 90%;
+      }
+
+     #contact .new .userinput {
+          width: 45%;
+     }
+}
+@media (min-width:768px) and (max-width:1024px){
+
+    
+     #mytunes{
+          /* height: 98vh; */
+          width: 109%;
+     }
+     #signup{
+          padding-top: 68px;
+          width: 109%;
+      
+     }
+     
+     #sign_up_button{
+          width: 25%;
+          padding: 6px;
+     }
+
+     #song_list{
+          width: 109%;
+          
+     }
+
+     #register{
+          padding-right :10px;
+          width: 109%;
+          /* height: 97vh; */
+     }
+     /* .registerhere{
+         
+          margin-bottom: 218px;
+          padding-left: 240px;
+          
+     } */
+     .registerhere h2{
+       /* margin-bottom: 54px; */
+          font-size: 4.2rem;
+          position: relative;
+        }
+     .registerhere h2::before{
+    content: "";
+    position:absolute;
+    border:1px solid red;
+    width: 190px;
+    top: 73px;
+        }
+     .registerhere h2::after{
+    content: "";
+    position:absolute;
+    border:1px solid red;
+    top: 73px;
+    width: 190px;
+    transform: translateX(-188px);
+        }
+
+        #mytunes h3::before{
+          content: "";
+          position: absolute;
+          border: 7px solid black;
+          top: 290px;
+          transform: translateX(145px) rotate(45deg);
+      }
+   
+        .registerhere h4{
+           font-size: 1.8rem;
+           position: relative;
+           
+        }
+     
+        .registerhere p{
+             
+             
+             /* padding:0px 40px; */
+           font-size: 2.2rem;
+         
+        }
+      
+     #contact {
+     width: 109%;
+     /* height: 85vh; */
+     }
+
+     #song_list h3 {
+          font-size: 2.5rem;
+     }
+
+     #song_list button{
+        font-size: 1.2rem;
+     }
+     #song_list button:hover{
+        font-size: 1.4rem;
+     }
+
+     #contact .new .userinput h2{
+          font-size: 1.5rem;
+     }
+     #contact .new .userinput {
+          width: 45%;
+     }
+     #contact .new .userinput img{
+           width: 20%;
+       }
+}
+
+
+@media (min-width:425px) and (max-width:768px){
+
+     #mytunes{
+          
+          width: 197%;
+     }
+     #mytunes p {
+        width: 105%;
+      }
+    
+
+     #signup{
+          padding-top: 68px;
+          width: 197%;
+      
+     }
+
+     #song_list{
+          width: 197%;
+          
+     }
+
+     #register{
+          padding-right :10px;
+          width: 197%;
+     }
+
+     #contact {
+          width: 197%;
+         
+          }
+
+          #sign_up_button{
+               width: 25%;
+               padding: 6px;
+          }
+         
+          .registerhere h2{
+            margin-bottom: 15px;
+               font-size: 3rem;
+               position: relative;
+             }
+          .registerhere h2::before{
+         content: "";
+         position:absolute;
+         border:2px solid red;
+         width: 190px;
+         top: 73px;
+             }
+          .registerhere h2::after{
+         content: "";
+         position:absolute;
+         border:2px solid red;
+         top: 73px;
+         width: 190px;
+         transform: translateX(-188px);
+             }
+             #mytunes h3::before{
+               content: "";
+               position: absolute;
+               border: 7px solid red;
+               top: 290px;
+               transform: translateX(142px) rotate(45deg);
+           }
+     
+             .registerhere h4{
+                font-size: 2.6rem;
+                position: relative;
+                
+             }
+          
+             .registerhere p{
+                 
+                  /* padding:0px 40px; */
+                font-size: 2.5rem;
+              
+             }
+             #registerbtn a{
+         
+               font-size: 22px;
+               
+          }
+             #contact .new .userinput h2{
+               font-size: 1.5rem;
+          }
+          #contact .new .userinput {
+               width: 45%;
+          }
+          #contact .new .userinput img{
+                width: 20%;
+            }
+    
+}
+
+@media (min-width:696px) and (max-width:768px){
+
+     #mytunes h3::before{
+          top: 309px;
+      }
+
+
+         /* =================================================== */
+         /* =================================================== */
+         /* =================================================== */
+         
+}
+@media (min-width:375px) and (max-width:425px){
+
+     #mytunes{
+          padding-left: 50px;
+          padding-right: 50px;
+          padding-top: 110px;
+          width: 100%;
+          /* height: 570px */
+         
+                 }
+
+                 #mytunes h2 {
+                    font-size: 2.2rem;
+                    padding-bottom: 10px;
+               }
+               #mytunes h3 {
+                    font-size: 1.2rem;
+                    padding-bottom: 3px;
+               }
+               #mytunes p{
+                    padding-bottom: 0px;
+                    font-size: 1rem;
+               }
+    
+               #mytunes h2::before{
+                    content: "";
+                    position: absolute;
+                    border: 1px solid black;
+                    width: 70px;
+                    margin-top: 47px;
+                    margin-left: -11px;
+               }
+               
+               #mytunes h2::after{
+                    content: "";
+                    position: absolute;
+                    border: 1px solid black;
+                    width: 70px;
+                    margin-top: 47px;
+                    margin-left: -64px;
+               }
+               #signup{
+                    padding: 10px 10px;
+                    width: 100%;
+                    /* height: 570px; */
+                    padding: 90px 10px 0px 10px;
+              }
+         
+              #signup i,h2{
+                   font-size: 2.5rem;
+              }
+              #signup h2{
+               padding-bottom: 0px;
+          }
+              #signup h3{
+               padding-top: 70px;
+               padding-bottom: 0px;
+               font-size: 1.25rem;
+              }
+              #signup p{
+               font-size: 1.2rem;
+               padding-bottom: 36px;
+          }   
+          
+          #sign_up_button {
+              width: 36%;
+              padding: 6px;
+          }
+     
+     
+     /************************** SONG LIST ********************** */
+                    #song_list{
+                         width: 100%;
+                         /* height: 570px */
+                    }
+               
+                    #song_list h3 {
+                         font-size: 1.7rem;
+                         /* align-items: center; */
+                    }
+                    
+                    #song_list button{
+                       font-size: 1.3rem;
+                       padding:10px;
+                    }
+     
+                 /* ************   REGISTER ************* */
+                 #register{
+                      
+                    padding-right :10px;
+                    width: 100%;
+                    /* height: 570px */
+     
+               }
+                   
+                    .registerhere{
+                         /* margin-top: 321px; */
+                        padding-left: 0px;
+                    }
+                    .registerhere h2{
+                      margin-bottom: 0px;
+                      font-size: 2.2rem;
+                      position: relative;
+                      }
+                    .registerhere h2::before{
+                   content: "";
+                   position:absolute;
+                   border:1px solid red;
+                   top: 43px;
+                   width: 117px;
+                       }
+                    .registerhere h2::after{
+                   content: "";
+                   position:absolute;
+                   border:1px solid red;
+                   top: 43px;
+                   width: 117px;
+                   transform: translateX(-115px);
+                   }
+                    
+               
+                       /* .registerhere h4{
+                          font-size: 1.5rem;
+                          position: relative;
+                       } */
+                    
+                       .registerhere p{
+                           
+                            padding:0px 40px;
+                          font-size: 1.3rem;
+                        
+                       }
+                       #registerbtn a{
+                   
+                         font-size: 20px;
+                         
+                    }
+     
+     
+                    /* ************* CONTACT ****************** */
+                           
+                    
+               #contact {
+                    width: 100%;
+                    /* height: 570px */
+                    }
+          
+                    #contact .new .userinput h2{
+                              font-size: 1.5rem;
+                         }
+                         #contact .new .userinput {
+                              /* margin-top: 50px; */
+                              width: 90%;
+                         }
+                         #contact .new .userinput img{
+                               width: 20%;
+                           }
+     
+                 
+     }
+
+     /* =================================================== */
+     /* =================================================== */
+     /* =================================================== */
+
+
+            @media (min-width:300px) and (max-width:375px){
+
+
+               #mytunes{
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    padding-top: 110px;
+                    width: 100%;
+                    /* height: 570px */
+                   
+                           }
+
+                           #mytunes h2 {
+                              font-size: 2.2rem;
+                              padding-bottom: 10px;
+                         }
+                         #mytunes h3 {
+                              font-size: 1.2rem;
+                              padding-bottom: 3px;
+                         }
+                         #mytunes p{
+                              padding-bottom: 0px;
+                              font-size: 1rem;
+                         }
+              
+                         #mytunes h2::before{
+                              content: "";
+                              position: absolute;
+                              border: 2px solid black;
+                              width: 70px;
+                              margin-top: 47px;
+                              margin-left: -3px;
+                              border-radius: 33px;
+                         }
+                         
+                         #mytunes h2::after{
+                              content: "";
+                              position: absolute;
+                              border: 2px solid black;
+                              width: 70px;
+                              margin-top: 47px;
+                              margin-left: -72px;
+                              border-radius: 33px;
+                         }
+                         /* #mytunes h3::before{
+                              content: "";
+                              position: absolute;
+                              border: 5px solid red;
+                              top: 307px;
+                              transform: translateX(82px) rotate(
+                          45deg);
+                          } */
+                    
+
+
+               /************** SIGN UP  ***************/
+
+
+         
+         
+              #signup{
+               padding: 10px 10px;
+               width: 100%;
+               /* height: 570px; */
+               padding: 90px 10px 0px 10px;
+         }
+    
+         #signup i,h2{
+              font-size: 2.5rem;
+         }
+         #signup h2{
+          padding-bottom: 0px;
+     }
+         #signup h3{
+          padding-top: 70px;
+          padding-bottom: 0px;
+          font-size: 1.25rem;
+         }
+         #signup p{
+          font-size: 1.2rem;
+          padding-bottom: 36px;
+     }   
+     
+     #sign_up_button {
+         width: 36%;
+         padding: 6px;
+     }
+
+
+/************************** SONG LIST ********************** */
+               #song_list{
+                    width: 100%;
+                    /* height: 570px */
+               }
+          
+               #song_list h3 {
+                    font-size: 1.7rem;
+                    /* align-items: center; */
+               }
+               
+               #song_list button{
+                  font-size: 1.3rem;
+                  padding:10px;
+               }
+
+            /* ************   REGISTER ************* */
+            #register{
+                 
+               padding-right :10px;
+               width: 100%;
+               /* height: 570px */
+
+          }
+              
+               .registerhere{
+                    /* margin-top: 321px; */
+                   padding-left: 0px;
+               }
+               .registerhere h2{
+                 margin-bottom: 0px;
+                 font-size: 2.2rem;
+                 position: relative;
+                 }
+               .registerhere h2::before{
+              content: "";
+              position:absolute;
+              border:1px solid red;
+              top: 43px;
+              width: 117px;
+                  }
+               .registerhere h2::after{
+              content: "";
+              position:absolute;
+              border:1px solid red;
+              top: 43px;
+              width: 117px;
+              transform: translateX(-115px);
+              }
+               
+          
+                  /* .registerhere h4{
+                     font-size: 1.5rem;
+                     position: relative;
+                  } */
+               
+                  .registerhere p{
+                      
+                       padding:0px 40px;
+                     font-size: 1.3rem;
+                   
+                  }
+                  #registerbtn a{
+              
+                    font-size: 20px;
+                    
+               }
+
+
+               /* ************* CONTACT ****************** */
+                      
+               
+          #contact {
+               width: 100%;
+               /* height: 570px */
+               }
+     
+               #contact .new .userinput h2{
+                         font-size: 1.5rem;
+                    }
+                    #contact .new .userinput {
+                         /* margin-top: 50px; */
+                         width: 90%;
+                    }
+                    #contact .new .userinput img{
+                          width: 20%;
+                      }
+
+            
+}

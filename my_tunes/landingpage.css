@@ -1,0 +1,329 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+
+.container1{
+     background-image: url('https://images.unsplash.com/photo-1476136236990-838240be4859?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG11c2ljJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+     background-repeat: no-repeat;
+     background-size: cover;
+     z-index: -1;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 100%;
+}
+
+.container{
+  z-index: 1;
+/***** this is for making div full screen ****/
+     /* position:absolute;
+     top:0px;
+     right:0px;
+     bottom:0px;
+     left:0px; */
+/***************************/
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 100%;
+     background-image: linear-gradient( to left top ,black , red ,black);
+     opacity: 0.75;
+}
+
+.box{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     width: 100%;
+}
+
+/*****************  STYLING HEAD ***********************/
+
+.head{
+     font-family: 'Montserrat', sans-serif;
+     /* border: 2px solid purple; */
+     margin-bottom: 10px;
+}
+.head .logo{
+     /* font-size: 4rem; */
+     justify-content: center;
+     text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 3.8rem;
+
+/******** for text gradient *********/
+    /* background: -webkit-linear-gradient( red, #ffc800);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+/************************************/
+
+    text-shadow: 2px 2px yellow;
+}
+.head .logo i{
+     font-size: 3.3rem;
+     padding-right: 9px;
+    margin-top: 34px;
+}
+
+.head h3{
+    text-shadow: 2px 2px blue;
+     color: #aaef23;
+     font-weight: bold;
+     font-size: 2rem;
+     position: relative;
+}
+.head h3::before{
+    content: "";
+    position: absolute;
+    border: 3px solid yellow;
+    top: 12px;
+    transform: translateX(-12px) rotate(45deg);
+}
+.head h3::after{
+     content: "";
+    position: absolute;
+    border: 3px solid yellow;
+    top: 12px;
+    transform: translateX(6px) rotate(45deg);
+}
+
+
+
+
+
+
+
+
+/***************** STYLING PARA ***************/
+
+
+.para p{
+     /* font-weight: bold; */
+     font-family: 'Montserrat', sans-serif;
+     color: white;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+   padding:15px 0px ;
+
+
+}
+.para button{
+     padding: 8px;
+       /* border-color: #0000008a; */
+       background-color: #000000;
+     border-left-width: 4px;
+     border-top-width: 4px;
+     border-radius: 40px;
+}
+.para button:hover{
+     background-color: #333;
+}
+
+
+
+.para a{
+     padding: 8px;
+     text-decoration: none;
+     color: white;
+     font-size:1.2rem;
+
+}
+
+
+/************* RESPONSIVENESS ****************/
+
+@media (min-width:320px) and (max-width:375px){
+
+
+
+     .images .all_image{
+          width: 33%;
+     }
+     .head .logo{
+         font-size: 3.8rem;
+      }
+      .container{
+             height: 110vh;
+             width: 100%;
+        }
+      .container1{
+          height: 124vh;
+          width: 100%;
+        }
+
+
+        .head .logo{
+          padding: 5px 0px;
+         font-size: 2.2rem;
+         text-shadow: 2px 2px yellow;
+     }
+     .head .logo i{
+          font-size: 2.2rem;
+          margin-top: 16px;
+     }
+     
+     .head h3{
+          padding-bottom: 5px;
+           font-size: 1.5rem;
+      }
+
+      .para p{
+           padding:35px 10px 20px 10px ;
+          
+           font-size: 1rem;
+     }
+     .para a {
+          font-size: 1rem;
+      }
+
+     }
+
+
+
+@media (min-width:375px) and (max-width:425px){
+
+
+    
+
+     .images .all_image{
+          width: 33%;
+     }
+     .head .logo{
+         font-size: 3.8rem;
+      }
+      .container{
+             height: 120vh;
+             width: 100%;
+        }
+      .container1{
+          height: 124vh;
+          width: 100%;
+        }
+
+
+        .head .logo{
+          padding: 5px 0px;
+         font-size: 2.2rem;
+         text-shadow: 2px 2px yellow;
+     }
+     .head .logo i{
+          font-size: 2.2rem;
+          margin-top: 16px;
+     }
+     
+     .head h3{
+          padding-bottom: 5px;
+           font-size: 1.5rem;
+      }
+
+      .para p{
+           padding:35px 10px 20px 10px ;
+          
+           font-size: 1rem;
+     }
+     .para a {
+          font-size: 1rem;
+      }
+
+     }
+
+
+
+@media (min-width:425px) and (max-width:768px){
+
+
+    
+
+     .images .all_image{
+          width: 20%;
+     }
+     .head .logo{
+         font-size: 3.8rem;
+      }
+      .container{
+             height: 120vh;
+             width: 100%;
+        }
+      .container1{
+          height: 124vh;
+          width: 124%;
+        }
+
+
+        .head .logo{
+          padding: 5px 0px;
+         font-size: 2.2rem;
+         text-shadow: 2px 2px yellow;
+     }
+     .head .logo i{
+          font-size: 2.2rem;
+          margin-top: 16px;
+     }
+     
+     .head h3{
+          padding-bottom: 83px;
+           font-size: 1.5rem;
+      }
+
+      .para p{
+           padding:66px 10px 38px 10px ;
+          
+           font-size: 1rem;
+     }
+     .para a {
+          font-size: 1rem;
+      }
+
+     }
+
+@media (min-width:768px) and (max-width:1024px){
+
+
+
+     .images .all_image{
+          width: 20%;
+     }
+     .head .logo{
+         font-size: 3.8rem;
+      }
+      .container{
+             height: 120vh;
+             width: 100%;
+        }
+      .container1{
+          height: 136vh;
+          width: 124%;
+        }
+
+
+        .head .logo{
+          padding: 5px 0px;
+         font-size: 2.2rem;
+         text-shadow: 2px 2px yellow;
+     }
+     .head .logo i{
+          font-size: 2.2rem;
+          margin-top: 16px;
+     }
+     
+     .head h3{
+          padding-bottom: 83px;
+           font-size: 1.5rem;
+      }
+
+      .para p{
+           padding:66px 10px 38px 10px ;
+          
+           font-size: 1rem;
+     }
+     .para a {
+          font-size: 1rem;
+      }
+
+     }

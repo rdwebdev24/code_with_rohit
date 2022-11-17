@@ -1,0 +1,205 @@
+
+*{
+      margin:0px;
+      border: 0px ;
+      box-sizing: border-box;
+}
+
+.container{
+     background-image: url('https://media.istockphoto.com/photos/abstract-background-with-circles-and-curves-picture-id901409540?b=1&k=20&m=901409540&s=170667a&w=0&h=rFYF1uuM8z9x90het9zBN5QZDB-xSUhoBvL0kOCEN2c=');
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+     /* border: 2px solid green; */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     /* text-align: center; */
+}
+
+.box{
+     /* border: 2px solid red; */
+     width: 100%;
+     text-align: center;
+     justify-content: center;
+}
+
+
+.heading{
+     font-family: 'Baloo 2', cursive;
+     /* border: 2px solid black; */
+}
+.heading h2{
+     color: #c3ce28;
+     text-shadow: 2px 2px 2px red;
+     font-size: 3.5rem;
+     font-weight: bolder;
+}
+
+/* .logo{
+     border: 2px solid violet;
+     
+} */
+.logo img{
+     box-shadow: 3px 3px 3px #5994b1;
+     border-radius: 50px;
+     width:7%;
+     
+}
+
+.user_detail{
+     color: white;
+     font-size: 1.2rem;
+     font-weight: bold;
+     font-family: 'Baloo 2', cursive;
+font-family: 'Koh Santepheap', cursive;
+     /* border: 2px solid blue; */
+}
+.user_detail input{
+     padding:5px;
+     margin: 10px 10px 10px 0px ;
+     border: 2px solid grey;
+}
+.user_detail input:hover{
+     border: 2px solid purple;
+}
+
+.date{
+     display: inline-block;
+}
+
+.year{
+     display: inline-block;
+}
+#month {
+     padding:5px;
+     margin-right: 10px;
+     border: 2px solid grey;
+}
+#month:hover {
+     border: 2px solid purple;  
+}
+
+
+.btn{
+     width: 20%;
+     border-radius: 6px;
+     margin-top: 10px;
+     padding: 4px;
+     background-image: linear-gradient( to bottom right ,#e44de4, skyblue);
+     transition: all 0.3s ease-in;
+     cursor: pointer;
+     color:#3d157a;
+     font-weight: bold;
+     font-size: 1.5rem;
+     text-decoration: none;
+     text-shadow: 2px 2px 2px #00ff86;
+}
+.btn:hover{
+     
+     background-image: linear-gradient( to bottom right , skyblue,#e44de4);
+     
+}
+.btn a:hover{
+     
+     color: #210053;
+     
+} 
+
+
+
+
+/* *********************** RESPONSIVENESSSS  *********************** */
+
+
+@media (min-width:425px) and (max-width:768px){
+
+     
+.container{
+     height: 130vh;
+     }
+      .date label{
+          display:inline-block;
+      }
+      .year label{
+          display: inline-block;
+     }
+     .btn{
+          width: 33%;
+          margin-top: 20px;
+          padding: 4px;
+     }
+     .btn a{
+          font-size: 1.2rem;
+     } 
+
+     .user_detail{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+          width: 87%;
+          padding:10px;
+          font-size: 1rem;
+     }
+     .logo img{
+               
+          width:12%;
+          
+     }
+}
+
+
+@media (min-width:375px) and (max-width:425px){
+
+     .container{
+          height: 130vh;
+          }
+
+          .user_detail{
+               font-size: 1rem;
+          }
+       
+          .heading h2{
+               font-size: 3rem;
+          }
+          .btn{
+               width: 30%;
+               margin-top: 18px;
+               padding: 4px;
+          }
+          .btn a{
+               font-size: 1.2rem;
+          } 
+          .logo img{
+               
+               width:12%;
+               
+          }
+}
+@media (min-width:320px) and (max-width:375px){
+
+     .container{
+          height: 130vh;
+          }
+
+          .user_detail{
+               font-size: 1rem;
+          }
+       
+          .heading h2{
+               font-size: 2.5rem;
+          }
+          .btn{
+               width: 30%;
+               margin-top: 18px;
+               padding: 4px;
+          }
+          .btn a{
+               font-size: 1.2rem;
+          } 
+          .logo img{
+               
+               width:12%;
+               
+          }
+}
